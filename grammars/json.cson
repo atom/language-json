@@ -6,6 +6,9 @@
   'jslintrc'
   'json'
   'topojson'
+  'jsonl'
+  'ldjson'
+  'ldj'
 ]
 'name': 'JSON'
 'patterns': [
