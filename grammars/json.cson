@@ -1,5 +1,6 @@
 'fileTypes': [
   'bowerrc'
+  'csslintrc'
   'eslintrc'
   'geojson'
   'jscsrc'
