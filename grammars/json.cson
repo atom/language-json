@@ -147,7 +147,7 @@
   'comments':
     'patterns': [
       {
-        'match': '/{2}.*'
+        'match': '//.*'
         'name': 'comment.single.json'
       }
       {
