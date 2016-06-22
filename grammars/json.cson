@@ -20,6 +20,7 @@
   'tern-project'
   'topojson'
   'webapp'
+  'languagebabel'
 ]
 'name': 'JSON'
 'patterns': [
