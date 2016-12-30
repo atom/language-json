@@ -27,6 +27,9 @@
 'name': 'JSON'
 'patterns': [
   {
+    'include': '#comments'
+  }
+  {
     'include': '#value'
   }
 ]
@@ -44,6 +47,9 @@
         'name': 'punctuation.definition.array.end.json'
     'name': 'meta.structure.array.json'
     'patterns': [
+      {
+        'include': '#comments'
+      }
       {
         'include': '#value'
       }
@@ -76,6 +82,9 @@
     'name': 'meta.structure.dictionary.json'
     'patterns': [
       {
+        'include': '#comments'
+      }
+      {
         'comment': 'the JSON object key'
         'include': '#string'
       }
@@ -92,6 +101,9 @@
             'name': 'punctuation.separator.dictionary.pair.json'
         'name': 'meta.structure.dictionary.value.json'
         'patterns': [
+          {
+            'include': '#comments'
+          }
           {
             'comment': 'the JSON object value'
             'include': '#value'
@@ -144,6 +156,29 @@
       }
       {
         'include': '#object'
+      }
+    ]
+  'comments':
+    'patterns': [
+      {
+        'match': '//.*'
+        'name': 'comment.single.json'
+      }
+      {
+        'begin': '/\\*\\*(?!/)'
+        'captures':
+          '0':
+            'name': 'punctuation.definition.comment.json'
+        'end': '\\*/'
+        'name': 'comment.block.documentation.json'
+      }
+      {
+        'begin': '/\\*'
+        'captures':
+          '0':
+            'name': 'punctuation.definition.comment.json'
+        'end': '\\*/'
+        'name': 'comment.block.json'
       }
     ]
 'scopeName': 'source.json'
