@@ -15,6 +15,7 @@
   'json'
   'jsonl'
   'jsonld'
+  'json-patch'
   'languagebabel'
   'ldj'
   'ldjson'
