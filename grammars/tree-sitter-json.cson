@@ -48,6 +48,8 @@ folds: [
 scopes:
   'value': 'source.json'
 
+  'object': 'meta.structure.dictionary.json'
+
   'pair > string': [
       {
         match: '^"https?://',
@@ -55,7 +57,7 @@ scopes:
       }
       'string.quoted.double'
     ]
-  'pair > string:nth-child(0)': 'string.quoted.double.dictionary.key'
+  'pair > string:nth-child(0)': 'string.quoted.double.dictionary.key.json'
 
   'escape_sequence': 'constant.character.escape'
 
