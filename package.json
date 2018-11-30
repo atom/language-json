@@ -19,6 +19,6 @@
     "coffeelint": "^1.10.1"
   },
   "dependencies": {
-    "tree-sitter-json": "^0.13.0"
+    "tree-sitter-json": "^0.13.1"
   }
 }
