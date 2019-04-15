@@ -50,7 +50,7 @@ scopes:
 
   'object': 'meta.structure.dictionary.json'
 
-  'pair > string': [
+  'string': [
       {
         match: '^"https?://',
         scopes: 'markup.underline.link'
