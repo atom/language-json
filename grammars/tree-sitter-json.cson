@@ -73,4 +73,4 @@ scopes:
   'array > ","': 'punctuation.separator.array'
   '"["': 'punctuation.definition.array.begin'
   '"]"': 'punctuation.definition.array.end'
-  '"\\""': 'punctuation.definition.string.begin.json'
+  '"\\""': 'punctuation.definition.string.json'
