@@ -53,7 +53,7 @@ scopes:
   'string': [
       {
         match: '^"https?://',
-        scopes: 'markup.underline.link'
+        scopes: 'string.quoted.double.markup.underline.link'
       }
       'string.quoted.double'
     ]
@@ -73,3 +73,4 @@ scopes:
   'array > ","': 'punctuation.separator.array'
   '"["': 'punctuation.definition.array.begin'
   '"]"': 'punctuation.definition.array.end'
+  '"\\""': 'punctuation.definition.string.json'
