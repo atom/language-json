@@ -19,6 +19,6 @@
     "coffeelint": "^1.10.1"
   },
   "dependencies": {
-    "tree-sitter-json": "^0.13.1"
+    "tree-sitter-json": "git://github.com/jasonrudolph/tree-sitter-json.git#e83c1bcaa3379ce42be9d3a7c70b6fa8ff2c2e1d"
   }
 }

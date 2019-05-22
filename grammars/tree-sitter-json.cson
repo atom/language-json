@@ -50,13 +50,13 @@ scopes:
 
   'object': 'meta.structure.dictionary.json'
 
-  'string': [
-      {
-        match: '^"https?://',
-        scopes: 'string.quoted.double.markup.underline.link'
-      }
-      'string.quoted.double'
-    ]
+  'string': 'string.quoted.double'
+
+  'string_content': [
+    { match: /^http:\/\//, scopes: 'markup.underline.link.http.hyperlink' }
+    { match: /^https:\/\//, scopes: 'markup.underline.link.https.hyperlink' }
+  ]
+
   'pair > string:nth-child(0)': 'string.quoted.double.dictionary.key.json'
 
   'escape_sequence': 'constant.character.escape'
