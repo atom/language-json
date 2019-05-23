@@ -50,7 +50,7 @@ scopes:
 
   'object': 'meta.structure.dictionary.json'
 
-  'string': 'string.quoted.double.json'
+  'string': 'string.quoted.double'
 
   'string_content': [
     { match: /^http:\/\//, scopes: 'markup.underline.link.http.hyperlink' }
