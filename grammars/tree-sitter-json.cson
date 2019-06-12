@@ -53,8 +53,8 @@ scopes:
   'string': 'string.quoted.double'
 
   'string_content': [
-    { match: /^http:\/\//, scopes: 'markup.underline.link.http.hyperlink' }
-    { match: /^https:\/\//, scopes: 'markup.underline.link.https.hyperlink' }
+    { match: "^http:\/\/", scopes: 'markup.underline.link.http.hyperlink' }
+    { match: "^https:\/\/", scopes: 'markup.underline.link.https.hyperlink' }
   ]
 
   'pair > string:nth-child(0)': 'string.quoted.double.dictionary.key.json'
