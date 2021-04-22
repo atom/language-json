@@ -1,6 +1,5 @@
 # JSON language support in Atom
 ![CI Status](https://github.com/atom/language-json/actions/workflows/main.yml/badge.svg)
-[![Dependency Status](https://david-dm.org/atom/language-json.svg)](https://david-dm.org/atom/language-json)
 
 Adds syntax highlighting of JSON files in Atom.
 
